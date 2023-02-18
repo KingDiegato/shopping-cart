@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+  "rules": {
+    "space-before-function-paren": "off",
+    "react/jsx-curly-newline": "off"
+  }
+}
