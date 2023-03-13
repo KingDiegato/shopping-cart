@@ -1,16 +1,17 @@
 .cart {
-  background: #000;
+  background: #200000;
   display: none;
   padding: 32px;
   position: fixed;
   right: 0px;
   top: 0px;
-  width: 200px;
+  width: 22rem;
 }
 
 .cart img {
   aspect-ratio: 16/9;
   width: 100%;
+  box-shadow: 0px 0px 30px #000000;
 }
 
 .cart li {
@@ -56,6 +57,6 @@
 }
 
 .total-price {
-  background-color: red;
+  background-color: rgb(250, 228, 98);
   height: 4rem;
 }
