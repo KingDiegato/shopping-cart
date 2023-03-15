@@ -17,6 +17,13 @@ export default function Filters() {
     }))
   }
 
+  const handleChangeCategory = (event) => {
+    setFilters(prevState => ({
+      ...prevState,
+      category: event.target.value
+    }))
+  }
+
   return (
     <section className='filters'>
       <div>
@@ -33,7 +40,7 @@ export default function Filters() {
       </div>
       <div>
         <label htmlFor={categoryFilterId}>Categoría</label>
-        <select id={categoryFilterId}>
+        <select id={categoryFilterId} onChange={handleChangeCategory}>
           <option value='all'>Todas</option>
           <option value='laptops'>portátiles</option>
           <option value='smartphones'>celulares</option>
