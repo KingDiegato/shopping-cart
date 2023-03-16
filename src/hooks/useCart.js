@@ -6,7 +6,7 @@ export function useCart() {
 
   // revisar si el contexto es undefined
   if (context === undefined) {
-    throw new Error('useCart Must e used withing a CartProvider')
+    throw new Error('useCart Must be used withing a CartProvider')
   }
 
   return context
